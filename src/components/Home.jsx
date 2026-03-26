@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import './css/Home.css';
 import pfp from '../assets/hana.JPG';
 import Timeline from './Timeline';
+import TechStack from './TechStack';
 
 const SKILLS = ["React"]
 
@@ -21,18 +22,18 @@ const Home = () => {
                         <p>IG: <a href="https://www.instagram.com/haa0_0naa" target="_blank" rel="noopener noreferrer">@haa0_0naa</a></p>
                         <p>Github: <a href="https://github.com/Hana1107" target="_blank" rel="noopener noreferrer">@Hana1107</a></p>
                     </div>
-                    
+
                 </div>
                 <div className='skills'>
                     <div className='education'>
                         <Timeline />
                     </div>
                     <div className='tech-stacks'>
-
+                        <TechStack />
                     </div>
+
                 </div>
             </div>
-            
         </div>
     );
 };
